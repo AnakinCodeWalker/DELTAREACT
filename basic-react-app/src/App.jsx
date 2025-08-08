@@ -4,7 +4,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 */
 
-import './App.css'
+import './App.css';
+import Title from './Title';
+import {Button,Button2} from './Button';
+/*
 function Title() {
   return (
     <div>
@@ -13,14 +16,9 @@ function Title() {
       <p>inside Title</p>
     </div>
   );
-}
-function Description(){
-  return(
-  <div>
-    <p>this is Description</p>
-    </div>
-  );
-}
+}*/
+
+
 function App() {
 
   /*const [count, setCount] = useState(0)*/
@@ -29,7 +27,8 @@ function App() {
     <div> 
     <Title></Title>
     <Title/>
-    <Description/>
+    <Button2/>
+    <Button/>
     </div>
   );
   /*(
