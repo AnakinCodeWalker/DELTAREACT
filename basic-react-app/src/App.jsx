@@ -1,12 +1,38 @@
+/*
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+*/
 
+import './App.css'
+function Title() {
+  return (
+    <div>
+      <h1>I am Title</h1>
+      <h1>I am Title</h1>
+      <p>inside Title</p>
+    </div>
+  );
+}
+function Description(){
+  return(
+  <div>
+    <p>this is Description</p>
+    </div>
+  );
+}
 function App() {
-  const [count, setCount] = useState(0)
+
+  /*const [count, setCount] = useState(0)*/
 
   return (
+    <div> 
+    <Title></Title>
+    <Title/>
+    <Description/>
+    </div>
+  );
+  /*(
     <>
       <div>
         <a href="https://vite.dev" target="_blank">
@@ -29,7 +55,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
+  )*/
 }
 
 export default App
