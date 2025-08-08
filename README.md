@@ -10,12 +10,7 @@ Perfect for reusing, experimenting, and sharing code across different projects.
 
 ---
 
-## 🎯 Preview
 
-![App Preview](./preview.png)
-*(Replace with your own screenshot or GIF)*
-
----
 
 ## ✨ Features
 - 📦 Well-organized React components
@@ -25,6 +20,7 @@ Perfect for reusing, experimenting, and sharing code across different projects.
 - ⚡ Uses the latest React features
 
 ---
+
 
 
 
